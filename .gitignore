@@ -1,0 +1,41 @@
+# Offline archives, third-party clones, and local study notes
+/archive/
+/docs/
+/source/
+/work/carla-api/
+/work/matplotplusplus/
+/work/stage*/
+/work/learning-*/
+/work/render-stage4.py
+
+# ROS2 / Colcon build artifacts & container home
+/work/controller-dev/build/
+/work/controller-dev/install/
+/work/controller-dev/log/
+/work/controller-dev/home/
+
+# Container runtime logs, tarballs, and scratch artifacts
+/work/container/demo-*/
+/work/container/smoke/
+/work/container/*.tar
+/work/container/*.log
+/work/container/*.tsv
+/work/container/*image.txt
+/work/container/python-versions.txt
+/work/container/source-integrity.json
+/work/container/*.backup.json
+/work/container/check-closed-loop-stage4.py
+
+# Raw evaluation runs and historical diagnostic dumps
+/experiments/eval/runs/
+/experiments/following/results/
+/experiments/following/verification.json
+
+# IDE, Python, CARLA, and OS caches
+.vscode/
+*.code-workspace
+__pycache__/
+*.py[cod]
+carlaCache/
+*.swp
+.DS_Store

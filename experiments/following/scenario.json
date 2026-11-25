@@ -1,0 +1,11 @@
+{
+  "town": "Town01",
+  "ego_spawn_ros": "92.387,-190,0.6,0,0,90",
+  "lead_role": "vehicle_2",
+  "lead_speed_kmh": 10,
+  "initial_center_gap_m": 30,
+  "lead_warmup_sim_s": 1,
+  "observation_sim_s": 12,
+  "end_before_ros_y": -70,
+  "collision_guard_gap_m": 6
+}
